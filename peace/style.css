@@ -1,0 +1,229 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 0 12vw;
+}
+
+.check{
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20%;
+    box-shadow: 0px 0px 10px  rgb(154, 152, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+}
+
+
+input{
+    display: block;
+    outline: none;
+    text-align: center;
+    margin: 10px 0 10px 0 ;
+    padding: 5px 0;
+    background-color: #ddd;
+    border-style: none;
+    width: 100%;
+
+}
+
+input::placeholder{
+    color: green;
+    font-size: 14px;
+}
+
+#dbtn{
+    padding:5px 20px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    border-style: none;
+    border-radius: 1.5em;
+    color: #fff;
+    cursor: pointer;
+    transition: .025s ease-out;
+}
+
+button:hover{
+    background-color: #0000ff;
+    transition: 0.25s ease-in;
+}
+
+.check_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #00ff00;
+    background-color: #f3f3f3;
+width: 100%;
+    margin-bottom: 10px;
+    border-radius: .7em;
+    padding: 20px;
+}
+
+h1{
+    border-bottom: 1px solid #000;
+    font-size: 1.2rem;
+    width: 100%;
+    color: #00ff;
+    font-weight: bolder;
+    text-shadow: hoff voff blur #000;
+}
+
+h2{
+    font-size: 14px;
+    /* border: 1px solid #000; */
+    margin-top: -2px;
+}
+
+
+
+
+
+/* STYLING FOR THE DETAILS PAGE STARTS HERE */
+
+
+li{
+    list-style: none;
+    font-weight: bold;
+}
+
+ul{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 15vw;
+    width: 15vw;
+  
+}
+
+span{
+    margin-left: 1em;
+}
+
+
+/* END */
+
+
+
+
+/* STYLE FOR ADMIN PAGE STARTS HERE */
+
+
+.holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    border: 1px solid #000;
+    width: 26vw;
+    height:35vh;
+    position: relative;
+    padding-bottom: 1em;
+   
+}
+
+
+.side{
+    border-right: 1px solid #000;
+    display: inline-block;
+    /* position: absolute;
+    bottom: 0;
+    top: 0 */
+    height: 35vh;
+    padding: 0 10px;
+   
+}
+
+.dash{
+    /* border: 1px solid #000; */
+    height: 5vh;
+    margin-bottom: 1em;
+}
+
+.btn{
+    position: absolute;
+    /* border: 1px solid #000; */
+    right: 4em;
+    top: 2em;
+    margin-left: 1em;
+   
+}
+
+#btn, #btnn{
+    margin-left: 14px; 
+    padding: 5px;
+}
+
+.tab{
+    display: flex;
+    position: absolute;
+    border: 1px solid #000;
+    width: 16vw;
+    right: 1em;
+    top: 9em;
+    vertical-align: top;
+    margin-bottom: 10px
+}
+
+.tabs{
+    /* border-bottom: 1px solid #000; */
+    width: 100%;
+    padding: 0 6px;
+  
+}
+
+.line{
+    border-right: 1px solid #000;
+    height: 7vw;
+}
+
+.t4{
+    margin-left: 8px;
+}
+
+.t2, .t3,.t1{
+      margin-left: .5em;
+      /* border-right: 1px solid #000; */
+}
+
+hr{
+    width: 16vw;
+    position: absolute;
+    top: .6em;
+    line-height: 30vh;
+    color: #000;
+}
+
+
+.board{
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    vertical-align: top;
+    width: 17.8vw;
+    text-align: center;
+    margin: 0 -2em 0 -.3em;
+}
+
+#admin{
+    text-align: center;
+    margin-top: 15em;
+}
+
+.btn{
+    background-color: #fff;
+}
